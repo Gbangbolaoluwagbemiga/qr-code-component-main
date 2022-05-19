@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color:  hsl(0, 0%, 100%);
+    color:   hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin: 15px 15px;
+
+}
+h2{
+    color:  hsl(218, 44%, 22%);
+}
+span{
+    display: block;
+}
+img{
+    height: 400px;
+    border-radius: 15px;
+}
+a:hover{
+    color: powderblue;
+    font-size: 25px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (max-width:999px) {
+    img{
+      max-width: 300px;
+    }
+    
+}
